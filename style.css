@@ -1,0 +1,224 @@
+/* von is annoying
+*{
+    padding: 0%;
+    margin: 0%;
+
+}
+body{
+
+    width: 100%;
+    background-color: black;
+    /* display: flex; */
+    /* max-width: 1440px; */
+}
+/* .top1{
+    color: white;
+    width: 24%;
+    padding: ;
+}
+.top1img{
+    background-color: grey;
+    /* padding:auto ; */
+    /* width:300px; */
+    
+/* }
+.top1img img{ */
+    /* margin:10px;
+width: 100%;
+}
+.main{
+    width:400px;
+/* } */ 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-block-start: 0;
+    padding-block-end: 0;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+    font-family:'Poppins', '-apple-system', 'BlinkMacSystemFont', "Segoe UI", 'Oxygen', 'Ubuntu', 'Cantarell', "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+    background-color: #131313;
+}
+
+/* Navigation Section  */
+.button-container {
+    padding: 1.3rem;
+}
+
+.direction_buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(37,37,37,.8);
+    padding: 0.5rem 0;
+    gap: 0.5rem;
+}
+
+.direction_buttons button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #424242;
+    color: #eee;
+    cursor: pointer;
+    height: 2.8125rem;
+    width: 1.25rem;
+    border-radius: 0.125rem;
+    padding: 0 1.25rem;
+    border: 0;
+    outline: 0;
+}
+
+.direction_buttons .btn-active:hover {
+    opacity: 0.9;
+}
+
+.direction_buttons .btn-middle {
+    width: 2.8125rem;
+}
+
+.direction_buttons .btn-disabled {
+    font-size: 14px;
+    cursor: not-allowed;
+    background-color: hsla(0,0%,100%,.04)
+}
+
+.direction_buttons .btn-disabled img {
+    opacity: 0.2;
+}
+
+.direction_buttons .btn-disabled span img {
+    font-size: 10rem;
+}
+
+/* Card Section */
+    /* First Section */
+.card {
+    display: flex;
+    gap: 1.1rem;
+    justify-content: center;
+    padding: 1.3rem;
+}
+
+.card-item {
+    width: 100%;
+    max-width: 18.36rem;
+    background-color: #131313;
+    color: #eee;
+    row-gap: 0.5rem;
+}
+
+.card-img-div {
+    background-color: #424242;
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 0.125rem;
+    border-top-right-radius: 0.125rem;
+    height: 11.6rem;
+    width: 100%;
+}
+
+.card-img-div img {
+    width: 90%;
+    border-top-left-radius: 0.125rem;
+    border-top-right-radius: 0.125rem;
+    margin-top: 1.25rem;
+    filter: drop-shadow(0 -15px 30px rgba(0,0,0,.6));
+}
+
+.card-img-div img:hover {
+    margin-top: 10px;
+    transition: all .2s ease;
+}
+
+    /* Second Section  */
+
+.second-section {
+    padding: 1.3rem;
+    background-color: #252525;
+}
+
+.heading1 p{
+    display: inline-block;
+    margin-bottom: 0.3rem;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0 0.3125rem;
+    border-radius: 0.125rem;
+    background: linear-gradient(160deg,#33a9dc,#4c83ff);
+}
+
+.heading2 h2 {
+    font-size: 1rem;
+    color: #eeeeee;
+    font-weight: 700;
+}
+
+.heading3 p{
+    font-size: 0.75rem;
+    opacity: .7;
+    margin-bottom: 0.625rem;
+}
+
+.avatar-and-name {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 0.8rem;
+    gap: 0.625rem;
+}
+
+.avatar-and-name img {
+    width: 1.375rem;
+}
+
+.avatar-and-name p {
+    font-size: 0.75rem;
+    color: rgb(238, 238, 238);
+}
+
+/* Third Section  */
+
+.third-section {
+    background-color: hsla(0,0%,100%,.05);
+    display: flex;
+    justify-content: center;
+}
+
+.sub-third-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: hsla(0,0%,100%,.1);
+    width: 90%;
+    margin: 0.8rem 0;
+    padding: 0.625rem;
+    border-radius: 0.125rem;
+    border: 0;
+    outline: 0;
+}
+
+.sub-third-section span {
+    color: #252525;
+    text-shadow: -1px 0 1px rgb(175, 175, 175);
+}
+
+.sub-items {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    font-size: 0.75rem;
+    color: #eee;
+}
+
+.sub-items img{
+    width: 0.9rem;
+}
